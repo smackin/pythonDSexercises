@@ -10,3 +10,10 @@ def number_compare(a, b):
         >>> number_compare(1, -2)
         'First is greater'
     """
+
+    if b == a: 
+        return "Numbers are Equal"
+    if a > b: 
+        return "First is Greater"
+    else: 
+        return "Second is Greater"

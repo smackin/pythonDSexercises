@@ -7,3 +7,8 @@ def frequency(lst, search_term):
         >>> frequency([1, 4, 3], 7)
         0
     """
+
+    return lst.count(search_term)
+
+    frequency([1,2,3,3,3,2,1], 3)
+    frequency([1,2,3,3,3,2,1], 1)
