@@ -13,7 +13,14 @@ def multiply_even_numbers(nums):
         1
     """
 
-    for num in nums:
+    # for num in nums:
+    #     if num % 2 == 0: 
+    #         num * num 
+    # return num 
+
+
+    count = 1
+    for num in nums: 
         if num % 2 == 0: 
-            num * num 
-    return num 
+            count*=num
+    return count        
