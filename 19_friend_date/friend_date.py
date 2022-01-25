@@ -16,3 +16,12 @@ def friend_date(a, b):
         >>> friend_date(sauron, gandalf)
         True
     """
+
+    if set(a[2]) & set(b[2]):
+        return True 
+    else:   
+        return False    
+
+
+friend_date(('Elmo', 5, ['hugging', 'being nice']), ('Gandalf', 10000, ['waving wands', 'chess'])) ;
+friend_date(('Sauron', 5000, ['killing hobbits', 'chess']), ('Gandalf', 10000, ['waving wands', 'chess'])) ;
