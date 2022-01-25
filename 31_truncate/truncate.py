@@ -24,3 +24,10 @@ def truncate(phrase, n):
         >>> truncate("Woah", 3)
         '...'
     """
+
+    # Truncating a string slices the string to extract a sequence of characters. For example, the string "abc" truncated to two characters is "ab".
+
+    phrase = phrase 
+    truncated = phrase[0:n]
+
+    return truncated

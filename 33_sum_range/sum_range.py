@@ -23,3 +23,6 @@ def sum_range(nums, start=0, end=None):
         >>> sum_range(nums, 1, 99)
         9
     """
+
+    for x in range(nums):
+        print (x + x)
